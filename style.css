@@ -17,8 +17,44 @@ body {
     background: #1F2937;
 }
 
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.img {
+  padding: 10px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  clip: inset(100px, 20px, 30px, 40px);
+  /*clip-path: circle(50% at 50% 50%);*/
+  border: 3px solid #1F2937;
+  border-radius: 10px;
+}
+
 .quote {
     background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    width:600px;
+    color: #1F2937;
+}
+
+.text p {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .footer {
@@ -26,7 +62,7 @@ body {
     color: #F9FAF8;
     text-align: center;
     padding: 20px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .call-to-action {
@@ -42,7 +78,25 @@ body {
     justify-content: space-around;
     align-items: center;
     background: #3882F6;
-    height: 80px;
+    height: 90px;
     flex: 0 1 600px;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.sign-up-text{
+    font-size: 12px;
+}
+
+.sign-up-text p {
+    font-size: 10px;
+    margin: 5px 0px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 1px #F9FAF8;
+    font-size: 12px;
 }
